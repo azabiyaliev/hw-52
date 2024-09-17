@@ -10,13 +10,13 @@ class CardDeck {
         this.deck = [];
     }
 
-    createDeck() {
+    createDeck(): Card {
         for (let i = 0; i < this.rank.length; i++) {
             for (let j = 0; j < this.suit.length; j++) {
                 this.deck.push(new Card(this.rank[i], this.suit[j]));
             }
         }
-    }
+    };
 
     getCard() {
         const randomCards = Math.floor(Math.random() * this.deck.length);
@@ -24,7 +24,7 @@ class CardDeck {
         return oneCard;
     };
 
-    getCards() {
+    getCards(howMany: number): Card[] {
         const cards = [this.getCard(), this.getCard(),this.getCard(), this.getCard(), this.getCard()];
         return cards;
     };

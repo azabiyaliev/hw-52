@@ -1,0 +1,45 @@
+body {
+    background-color: #2b2b2b;
+}
+
+.border {
+    padding: 0 40px;
+    margin-top: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 500px;
+    width: 50%;
+    border: 2px solid #654321;
+    background-color: #654321;
+    box-shadow: 0 0 10px #fff;
+}
+
+.mainDiv {
+    border: 1px solid green;
+    border-radius: 200px;
+    box-shadow: 0 0 9px #fff;
+    width: 100%;
+    margin: 40px auto;
+    background-color: green;
+}
+
+.btn {
+    display: block;
+    margin: 50px auto;
+    padding: 5px 10px;
+    background: #fff;
+    box-shadow: 6px 8px 4px 0 rgba(0, 0, 0, 0.2);
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.div {
+    height: 100px;
+    border: 1px gold solid;
+    border-radius: 5px;
+    width: 50%;
+    margin: 100px auto 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 0 10px #fff;
+}
